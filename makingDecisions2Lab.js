@@ -32,7 +32,8 @@ var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
 
 //Code Here
 
-
+for (let gopher = 0; gopher < 5; gopher++) {
+  console.log(family[gopher]);}
 
 ////////// PROBLEM 4 //////////
 
