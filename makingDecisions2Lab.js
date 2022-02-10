@@ -47,7 +47,11 @@ let evensArr = []
 */
 
 //Code Here
-
+for (let mole = 0 ; mole < 10; mole++) {
+  if(nums[mole] % 2 === 0) {
+    evensArr.push(nums[mole])
+  } else console.log(nums[mole])
+} 
 
 
 ////////// PROBLEM 5 //////////
