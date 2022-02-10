@@ -214,3 +214,18 @@ console.log(text);
 */
 
 //Code Here
+
+//Here we go again...
+
+for(raccoon = 1; raccoon <= 100; raccoon++) {
+  if(raccoon % 15 === 0) {
+    console.log(`Devmountain`);
+  } else if(raccoon % 5 === 0) {
+    console.log(`mountain`);
+  } else if(raccoon % 3 === 0) {
+    console.log(`Dev`)
+  } else {
+    console.log(`${raccoon}`)
+
+  }
+}
