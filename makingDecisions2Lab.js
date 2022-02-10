@@ -166,7 +166,26 @@ If the letter grade is not one of the above letters, console.log 'Not an eligibl
 
 //Code Here
 
-
+switch (letterGrade) {
+case 'A':
+  text = 'The student is doing excellently.';
+  break;
+case 'B':
+  text = 'The student is doing well.';
+  break;
+case 'C':
+  text = 'The student is doing alright.';
+  break;
+case 'D':
+  text = 'The student is not doing very well.';
+  break;
+case 'F':
+  text = 'The student is failing.';
+  break;
+  default:
+    text = `Your student isn't in this class.`;
+}
+console.log(text);
 
 ////////// PROBLEM 11 //////////
 /* The famous FizzBuzz, Devmountain style!
